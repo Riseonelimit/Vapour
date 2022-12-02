@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vapours - Weather App</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="vapour.js" defer ></script>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <h1>Vapour<span>s</span></h1>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="search-bar preloading">
+            <div class="search-container">
+                <input type="text" class="search-input" placeholder="Search City">
+                <button class="search-btn" type="submit">
+                    <img src="assets/icons8-search.svg" alt="">
+                </button>
+            </div>
+        </div>
+        <div class="temperature loading">
+            <img src="Weather/cloudy-day-2.svg" alt="" class="wimg">
+            <div class="info">
+                <h1 class="desc">Cloudy</h1>
+                <h1 class="temp">20°C</h1>
+                <h1 class="city">London</h1>
+            </div>
+        </div>
+        <div class="restinfo loading">
+            <div class="content">
+                <div class="rinfo">
+                    <img src="assets/wind.png" alt="">
+                    <h1>Wind</h1>
+                    <h1 class="speed">20kmp</h1>
+                </div>
+                <div class="rinfo">
+                    <img src="assets/humidity.png" alt="">
+                    <h1>Humidity</h1>
+                    <h1 class="humidity">20kmp</h1>
+                </div>
+                <div class="rinfo">
+                    <img src="assets/temperature-down.png" alt="">
+                    <h1>Min</h1>
+                    <h1 class="temp_min">20°C</h1>
+                </div>
+                <div class="rinfo">
+                    <img src="assets/temperature-up.png" alt="">
+                    <h1>Max</h1>
+                    <h1 class="temp_max">20°C</h1> 
+                </div>
+            </div>
+        </div>
+        <div class="socials">
+            <div class="scontent">
+                <a href="https://github.com/Riseonelimit" target="_blank"><img src="assets/github.svg" alt=""></a>
+                <a href="https://www.instagram.com/dark_knightz55/" target="_blank"><img src="assets/instagram64.svg" alt=""></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
